@@ -27,7 +27,10 @@ class Display:
 
     def update_locations(self, locations) -> None:
         self.locations = locations
-    
+
+    def update_characters(self, characters: list) -> None:
+        self.characters = characters
+
     def update_terrain(self, terrain) -> None:
         self.terrain = terrain
 
