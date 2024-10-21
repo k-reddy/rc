@@ -1,5 +1,5 @@
 import unittest
-from ..pyxel_main import (
+from Gloomhaven.pyxel_ui.pyxel_main import (
     Action,
     Direction,
     PyxelActionQueue,

@@ -2,7 +2,7 @@ from collections import deque
 from dataclasses import dataclass
 from typing import Optional
 
-from ..enums import Direction
+from Gloomhaven.pyxel_ui.enums import Direction
 
 
 @dataclass

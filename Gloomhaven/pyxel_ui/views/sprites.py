@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from ..enums import AnimationFrame
+from Gloomhaven.pyxel_ui.enums import AnimationFrame
 
 
 @dataclass

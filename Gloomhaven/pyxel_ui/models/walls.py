@@ -2,7 +2,7 @@ from dataclasses import dataclass
 import itertools
 
 from .canvas import Canvas
-from ..enums import Direction
+from Gloomhaven.pyxel_ui.enums import Direction
 
 
 @dataclass
