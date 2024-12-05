@@ -45,6 +45,7 @@ class PyxelEngine:
 
         self.view_manager = ViewManager(DEFAULT_PYXEL_WIDTH, DEFAULT_PYXEL_HEIGHT)
         # self.mouse_tile_pos = None
+        # maybe change this to input_manager?
         self.keyboard_manager = UserInputManager(self.view_manager, self.server_client)
 
     # def generate_hover_grid(self, width_px: int =32, height_px:int =32) -> list

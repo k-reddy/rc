@@ -32,6 +32,7 @@ def provide_help_if_desired(all_ai_mode=False):
 
 def main(dev_mode=False):
     host = "13.59.128.25"
+    # host = "localhost"
     if dev_mode:
         port = "8000"
         host = "localhost"
